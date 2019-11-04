@@ -4,11 +4,11 @@
   <h1 class="text-center">Learn something today</h1>
   <hr />
 
-  <% @courses.each do |course| %>
+  <% current_course.each do |course| %>
     <h2 class="text-center">
       <%= link_to course.title, course_path(course) %>
     </h2>
-    <% if @course.image.present? %>
+    <% if current_course.image.present? %>
     <%= image_tag @course.image.to_s, class: 'img-fluid center' %>
   <% end %>
     <br />
