@@ -16,6 +16,8 @@ class Instructor::CoursesController < ApplicationController
   end
   
   def show
+   @course = Course.find(params[:id])
+   @video = Video.new
   end
 
   private
@@ -25,7 +27,7 @@ class Instructor::CoursesController < ApplicationController
       render plain: "Unauthorized", status: :unauthorized
     end
   end
-  
+
   helper_method :current_course
   def current_course
     @current_course ||= Course.find(params[:id])
