@@ -4,6 +4,7 @@
  <h1><%= @course.title %></h1>
  <% if @course.image.present? %>
     <%= image_tag @course.image.to_s, class: 'img-fluid center' %>
+ </hr />
   <% end %>
  <br />
  <div class="row">
@@ -17,7 +18,9 @@
       <br />
       <%= link_to 'Administer', instructor_course_path(@course), class: 'btn btn-danger btn-large' %>
     <% end %>
-  </div>
+   
+   <br />
+   <br />
 
   <div class="col-sm-8 col-12">
     <%= @course.description %>
