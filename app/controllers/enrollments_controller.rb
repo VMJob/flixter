@@ -1,4 +1,5 @@
 class EnrollmentsController < ApplicationController
+  attr_accessor
   before_action :authenticate_user!
 
   def create
