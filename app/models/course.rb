@@ -16,3 +16,4 @@ class Course < ApplicationRecord
     ! free?
   end
 end
+

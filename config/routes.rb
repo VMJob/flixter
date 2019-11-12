@@ -6,11 +6,13 @@ Rails.application.routes.draw do
  end
   resources :lessons, only: [:show]
 	namespace :instructor do
+    resources :lessons, only: [:update]
       resources :sections, only: [] do
       resources :lessons, only: [:new, :create]
     end
        resources :courses, only: [:new, :create, :show] do
         resources :sections, only: [:new, :create]
+        resources :sections, only: [:update]
     end     
   end
 end
