@@ -20,6 +20,7 @@ class Instructor::CoursesController < ApplicationController
   def show
    @course = Course.find(params[:id])
    @video = Video.new
+   @section =Section.new
   end
 
   private
