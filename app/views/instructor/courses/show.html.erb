@@ -36,6 +36,9 @@
 <br />
 <div class="booyah-box col-10 offset-1">
   <h1 class="text-center"><%= current_course.title %></h1>
+  <br />
+  <!-- <% link_to'Preview AS Student...' course_path(current_course), class: 'btn btn-warning float-right' %>
+  <br class="clr" /> -->
   <%= image_tag current_course.image.to_s, class: 'img-fluid' %>
 
   <div class="text-center">
@@ -85,6 +88,7 @@
     </li>
     <% end %>
   </ul>
+ <% end %> 
 </div> 
  
 
