@@ -1,3 +1,7 @@
 # README
 
-This is a Yelp clone app that integrates with Google Map API which includes features like user comments, star ratins, image uploding, and user authentication. It was built with HTML, CSS, RUBY, RAILS, and ALGORITHYMS.
+This is a two sided video streaming market place platform, featuring credit card payment capabilities, user role management, complex user interfaces and advanced database relationships.
+
+It was built with HTML, CSS, RUBY, RAILS, JavaScript, and ALGORITHYMS.
+
+https://flixter-vincent-job.herokuapp.com/
