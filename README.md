@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a two sided video streaming market place platform, featuring credit card payment capabilities, user role management, complex user interfaces and advanced database relationships.
 
-Things you may want to cover:
+This app was built with HTML, CSS, RUBY, RAILS, JavaScript, and ALGORITHYMS.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://flixter-vincent-job.herokuapp.com/
